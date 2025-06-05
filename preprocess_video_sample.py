@@ -6,7 +6,7 @@ import librosa
 import ffmpeg  # NEW: replacing moviepy
 
 # Set credentials file
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = r"C:\Users\neela\Downloads\linear-theater-461715-m2-8e6e55f3ca64.json"
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = r"" #Enter your own credentials
 
 # GCS access
 client = storage.Client()
